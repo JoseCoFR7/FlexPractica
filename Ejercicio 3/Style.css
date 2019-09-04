@@ -1,0 +1,40 @@
+.Columna {
+    margin: 15px;
+    background-color: red;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+    background-color: blue;
+    height: 500px;
+  }
+  
+  .green-column {
+      background-color: green;
+      height: 500px;
+  }
+
+  .yellow-column {
+      background-color:  yellow;
+      height: 500px;
+    
+  }
+
+  .red-column {
+      height:100px;
+      background-color: red;
+
+  }
