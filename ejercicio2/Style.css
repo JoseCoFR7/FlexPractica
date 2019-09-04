@@ -1,0 +1,36 @@
+.Columna {
+    margin: 15px;
+    background-color: red;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .purple-column {
+    background-color: purple;
+    height: 500px;
+  }
+  
+  .grey-column {
+      background-color: grey;
+      height: 500px;
+  }
+
+ 
+
+  .black-column {
+      height:100px;
+      background-color: black;
+
+  }
